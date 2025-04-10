@@ -1,5 +1,5 @@
 import React from 'react';
-import './StatCards.css';
+import './Statcards.css';
 import SalesChart from '../Charts/Saleschart';
 import QuantityChart from '../Charts/Quantitychart';
 import CitiesChart from '../Charts/Citieschart';

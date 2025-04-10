@@ -3,8 +3,6 @@ import Sidebar from '../Sidebar/Sidebar';
 import Header from '../Header/Header';
 import Navbar from '../Navbar/Navbar';
 import Statcards from '../Statcards/Statcards';
-import Recentactivity from '../Recentactivity/Recentactivity';
-import Footer from '../Footer/Footer';
 import './Layout.css';
 import Table1 from '../Tables/Table1/Table1';
 import Table2 from '../Tables/Table2/Table2';

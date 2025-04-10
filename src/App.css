@@ -1,0 +1,9 @@
+.app {
+  display: flex;
+  background-color: #f9fafb;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}

@@ -1,0 +1,27 @@
+/* Daterangepicker.css */
+
+.react-datepicker__input-container input {
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .react-datepicker {
+    background-color: white !important;
+    border: 1px solid #ccc;
+  }
+  
+  .react-datepicker__header {
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .react-datepicker__day--selected, 
+  .react-datepicker__day--keyboard-selected {
+    background-color: #4CAF50;
+    color: white;
+  }
+  

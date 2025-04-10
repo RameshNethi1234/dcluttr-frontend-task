@@ -1,0 +1,97 @@
+.sidebar {
+  width: 200px;
+  background-color: #f0f0f0;
+  color: black;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-links {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0; /* space between logo and links */
+}
+
+.main-links li {
+  margin: 15px 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: black;
+  font-size: 16px;
+}
+
+.dropdown-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdown-menu {
+  list-style: none;
+  padding-left: 25px;
+  margin-top: 5px;
+}
+
+.dropdown-menu li {
+  margin: 8px 0;
+  font-size: 14px;
+  color: black;
+  cursor: pointer;
+}
+
+.main-logo-container {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  width: fit-content;
+  color: black;
+}
+
+.main-logo-text {
+  background-color: #20a39e;
+  color: white;
+  padding: 8px;
+  border-radius: 50%;
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.main-logo-container p:nth-child(2) {
+  margin: 0 8px 0 0;
+  font-size: 16px;
+}
+
+.main-logo-container svg {
+  margin-left: auto;
+  font-size: 18px;
+}
+
+.bottom-logos {
+  list-style: none;
+  padding: 0;
+  margin: 30px 0 0 0; /* space between content & bottom items */
+}
+
+.bottom-logos li {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  color: black;
+  font-size: 16px;
+}
